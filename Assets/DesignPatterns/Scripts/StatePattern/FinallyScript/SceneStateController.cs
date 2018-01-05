@@ -15,7 +15,10 @@ public class SceneStateController
 
 
         //载入场景
+        isLoad = true;
+        runBegin = false;
         LoadScene(loadSceneName);
+
         //通知前一个State结束
         if (m_State != null)
             m_State.StateEnd();
@@ -32,7 +35,10 @@ public class SceneStateController
             return;
         SceneManager.LoadScene(sceneName);
         ////异步加载
-        AsyncOperation asyncOperation= SceneManager.LoadSceneAsync(sceneName);
+        //SceneManager.LoadSceneAsync(sceneName);
+
+        //加载完成
+        isLoad = false;
     }
 
     /// <summary>
@@ -43,6 +49,7 @@ public class SceneStateController
         //判断是否还在加载
         if (isLoad)
             return;
+
         //通知新的State开始
         if(m_State!=null&&runBegin==false)
         {
@@ -50,7 +57,7 @@ public class SceneStateController
             runBegin = true;
         }
 
-        if (m_State != null)
+        if (m_State != null&&runBegin)
             m_State.StateUpdate();
     }
 }

@@ -30,11 +30,20 @@ public class BaseSceneState
     }
 
     //开始
-    public virtual void StateBegin() { }
+    public virtual void StateBegin()
+    {
+        Debug.Log(StateName+":Begin");
+    }
     //更新
-    public virtual void StateUpdate() { }
+    public virtual void StateUpdate()
+    {
+        Debug.Log(StateName + ":Update");
+    }
     //结束
-    public virtual void StateEnd() { }
+    public virtual void StateEnd()
+    {
+        Debug.Log(StateName + ":End");
+    }
 
     public override string ToString()
     {

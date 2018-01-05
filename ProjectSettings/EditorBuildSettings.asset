@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/DesignPatterns/Scenes/main.unity
+    guid: 66b47aa36cb64b64598082a541edfa11
+  - enabled: 1
+    path: Assets/DesignPatterns/Scripts/StatePattern/Scenes/BatttleScene.unity
+    guid: 0443e2b1ec7584e469c2c3dcf9d815c1
+  - enabled: 1
+    path: Assets/DesignPatterns/Scripts/StatePattern/Scenes/MainMenuScene.unity
+    guid: b9c47de16f0208a48a601366585bca35
+  - enabled: 1
+    path: Assets/DesignPatterns/Scripts/StatePattern/Scenes/StartScene.unity
+    guid: ee90c504e67e8b84e88dd6ef883e0b27

@@ -23,6 +23,7 @@ public class MainMenuSceneState : BaseSceneState
     public override void StateUpdate()
     {
         base.StateUpdate();
+        //逻辑更新
     }
 }
 
