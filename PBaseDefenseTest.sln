@@ -1,12 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBaseDefenseTest", "PBaseDefenseTest.csproj", "{F5318AE4-6143-3C84-4B8C-855BC0C40CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBaseDefenseTest.Editor", "PBaseDefenseTest.Editor.csproj", "{A6D3F5AE-BFDD-118D-856C-BAEB9BC423EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5318AE4-6143-3C84-4B8C-855BC0C40CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5318AE4-6143-3C84-4B8C-855BC0C40CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5318AE4-6143-3C84-4B8C-855BC0C40CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5318AE4-6143-3C84-4B8C-855BC0C40CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D3F5AE-BFDD-118D-856C-BAEB9BC423EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D3F5AE-BFDD-118D-856C-BAEB9BC423EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D3F5AE-BFDD-118D-856C-BAEB9BC423EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D3F5AE-BFDD-118D-856C-BAEB9BC423EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
