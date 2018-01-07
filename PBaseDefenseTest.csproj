@@ -297,6 +297,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\ConcreteMediator.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\IMediator.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\Panel.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\PanelA.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\PanelB.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\Test.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\StatePattern\FinallyScript\BaseSceneState.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\StatePattern\FinallyScript\BattleSceneState.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\StatePattern\FinallyScript\ISceneState.cs" />

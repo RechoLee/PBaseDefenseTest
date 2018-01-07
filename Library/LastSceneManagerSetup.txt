@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DesignPatterns/Scripts/StatePattern/Scenes/main.unity
+- path: Assets/DesignPatterns/Scripts/MediatorPattern/Scene/mediatorTest.unity
   isLoaded: 1
   isActive: 1
