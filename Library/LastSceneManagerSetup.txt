@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DesignPatterns/Scripts/Bridge/Scene/bridgeTest.unity
+- path: Assets/DesignPatterns/Scripts/StrategyPattern/Scene/StrategyTest.unity
   isLoaded: 1
   isActive: 1

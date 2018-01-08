@@ -297,14 +297,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\BridgeTest.cs" />
-    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\CharacterA.cs" />
-    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\CharacterB.cs" />
-    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\ICharacter.cs" />
-    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\IWeapon.cs" />
-    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\Weapon1.cs" />
-    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\Weapon2.cs" />
-    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\Weapon3.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\BridgeTest.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\CharacterA.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\CharacterB.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\ICharacter.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\IWeapon.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\Weapon1.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\Weapon2.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\Weapon3.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\ConcreteMediator.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\IMediator.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\Panel.cs" />
@@ -324,6 +324,12 @@
     <Compile Include="Assets\DesignPatterns\Scripts\StatePattern\OriginScript\Context.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\StatePattern\OriginScript\State.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\StatePattern\OriginScript\StatePatternTest.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\StrategyPattern\StrategyScript\IStrategy.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\StrategyPattern\StrategyScript\StrategyA.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\StrategyPattern\StrategyScript\StrategyB.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\StrategyPattern\StrategyScript\StrategyC.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\StrategyPattern\StrategyScript\StrategyContext.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\StrategyPattern\StrategyScript\StrategyTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
