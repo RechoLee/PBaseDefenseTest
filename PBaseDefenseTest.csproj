@@ -297,6 +297,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\BridgeTest.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\CharacterA.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\CharacterB.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\ICharacter.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\IWeapon.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\Weapon1.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\Weapon2.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\Bridge\BridgeScript\Weapon3.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\ConcreteMediator.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\IMediator.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\Panel.cs" />
