@@ -330,6 +330,10 @@
     <Compile Include="Assets\DesignPatterns\Scripts\StrategyPattern\StrategyScript\StrategyC.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\StrategyPattern\StrategyScript\StrategyContext.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\StrategyPattern\StrategyScript\StrategyTest.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\TemplateMethodPattern\TemplateScript\AbstractClass.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\TemplateMethodPattern\TemplateScript\ConcreteClassA.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\TemplateMethodPattern\TemplateScript\ConcreteClassB.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\TemplateMethodPattern\TemplateScript\TemplateTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DesignPatterns/Scripts/StrategyPattern/Scene/StrategyTest.unity
+- path: Assets/DesignPatterns/Scripts/TemplateMethodPattern/Scene/TemplateTest.unity
   isLoaded: 1
   isActive: 1
