@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.3.0f3</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -305,6 +307,13 @@
     <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\Weapon1.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\Weapon2.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\BridgePattern\BridgeScript\Weapon3.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\FactoryMethod\FactoryScript\FactoryA.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\FactoryMethod\FactoryScript\FactoryB.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\FactoryMethod\FactoryScript\FactoryTest.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\FactoryMethod\FactoryScript\IFactory.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\FactoryMethod\FactoryScript\IProduct.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\FactoryMethod\FactoryScript\ProductA.cs" />
+    <Compile Include="Assets\DesignPatterns\Scripts\FactoryMethod\FactoryScript\ProductB.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\ConcreteMediator.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\IMediator.cs" />
     <Compile Include="Assets\DesignPatterns\Scripts\MediatorPattern\MediatorScripts\Panel.cs" />

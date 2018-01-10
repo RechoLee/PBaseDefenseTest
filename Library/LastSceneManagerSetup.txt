@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DesignPatterns/Scripts/TemplateMethodPattern/Scene/TemplateTest.unity
+- path: Assets/DesignPatterns/Scripts/FactoryMethod/Scene/factoryTest.unity
   isLoaded: 1
   isActive: 1
